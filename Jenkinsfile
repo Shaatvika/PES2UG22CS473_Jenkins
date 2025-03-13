@@ -10,7 +10,8 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh './PES2UG22CS473'
+                sh 'exit 1' //Error command
+                //sh './PES2UG22CS473'
             }
         }
         
